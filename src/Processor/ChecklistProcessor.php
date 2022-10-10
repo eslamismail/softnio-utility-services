@@ -9,8 +9,8 @@ class ChecklistProcessor extends Processor
 {
     protected $listen = [
         Login::class => [
-            ProcessIncoming::class,
-        ]
+            // ProcessIncoming::class,
+        ],
     ];
 
     public function boot()
